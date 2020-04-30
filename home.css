@@ -13,15 +13,49 @@ form, input, div {
 }
 
 body {
-
   width: 100%px;
-
 }
 
 p {
   font-family: "open sans";
   font-size: 20px;
   color: black;
+}
+
+header {
+  height: 60px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logos {
+  width: 50px;
+  margin-top: 10px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 50px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .top-header img{
