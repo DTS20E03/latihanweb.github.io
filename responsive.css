@@ -6,6 +6,10 @@
   .colom {
     display: block;
   }
+  
+  .header-right a{
+    padding: 0 15px;
+  }
 
   .profil-icon {
     width: 50%;
